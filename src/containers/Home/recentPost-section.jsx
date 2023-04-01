@@ -12,6 +12,7 @@ export default function RecentPostSection({
   currentCategory,
   setCurrentCategory,
   handleDeletePost,
+  isLoading
 }) {
   //------------- state -------------
 
@@ -53,6 +54,10 @@ export default function RecentPostSection({
     category: categories.find((category) => category.id === post.category),
   }));
 
+
+  if (isLoading) {
+    return <Loader/>;
+  }
   //------------- UI -------------
   return (
     <>

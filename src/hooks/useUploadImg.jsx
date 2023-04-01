@@ -48,10 +48,12 @@ const useUploadImg = () => {
           Url: response.data.data.display_url,
         });
 
-        console.log(selectedImg);
+        setIsLoading(false);
+        setError(null);
       })
       .catch((err) => {
         alert(err.message);
+        setError(err);
       });
   };
 
@@ -63,12 +65,13 @@ const useUploadImg = () => {
     event.preventDefault();
     console.log(selectedImg);
     if (!selectedImg.selectedImage) {
-      
-      setError("You need to choose image first")
+      setError("You need to choose image first");
       console.log(error);
       return false;
     }
-
+    setIsLoading(true);
+    setError(null);
+    
     fetchImg();
   };
 

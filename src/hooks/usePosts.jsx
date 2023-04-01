@@ -40,7 +40,7 @@ const usePost = () => {
         // toast(error);
       }
     }
-    
+
     async function getPosts() {
       try {
         const { data } = await axios.get("http://localhost:3000/posts");
@@ -51,7 +51,7 @@ const usePost = () => {
         // console.log(featuredP);
       } catch (error) {
         toast("Something went wrong, please try again later...");
-
+        setIsLoading(false);
         // setError(error.message);
         // toast(error);
       }

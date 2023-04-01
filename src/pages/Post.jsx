@@ -40,6 +40,8 @@ export default function Post({ categories, handleAddNewPost, handleEditPost }) {
     error,
   } = useUploadImg();
 
+  const [errorr, setError] = useState(null);
+  const [Loading, setIsLoading] = useState(null);
   //------------- effect -------------
   useEffect(() => {
     async function fetchPostById() {
@@ -81,6 +83,8 @@ export default function Post({ categories, handleAddNewPost, handleEditPost }) {
   };
 
   const handleAdd = async () => {
+    setIsLoading(true);
+    setError(null);
     try {
       const { data } = await axios.post("http://localhost:3000/posts", {
         userId: user.user.id,
@@ -93,14 +97,19 @@ export default function Post({ categories, handleAddNewPost, handleEditPost }) {
       // console.log(user.id);
       // update app state
       handleAddNewPost(data);
+      setIsLoading(false);
+
+      toast.success("Post added successfully");
     } catch (error) {
       toast("Something went wrong, please try again later...");
     }
   };
 
   const handleEdit = async () => {
+    setIsLoading(true);
+    setError(null);
     try {
-      const { data } = await axios.put(
+      const { data } = await axios.patch(
         `http://localhost:3000/posts/${postid}`,
         {
           userId: user.user.id,
@@ -112,13 +121,17 @@ export default function Post({ categories, handleAddNewPost, handleEditPost }) {
         }
       );
       handleEditPost(data);
+      setIsLoading(false);
+
+      toast.success("Post edited successfully");
     } catch (error) {
-      toast("Something went wrong, please try again later...");
+      toast.error("Something went wrong, please try again later...");
+      setError(error);
     }
   };
 
-  if(isLoading){
-    return <Loader />
+  if (isLoading) {
+    return <Loader />;
   }
 
   //------------- UI -------------
@@ -189,7 +202,11 @@ export default function Post({ categories, handleAddNewPost, handleEditPost }) {
                 </div>
 
                 <div className=" flex flex-col justify-center items-center mt-6">
-                  <button className="btn bg-accent my-3 w-1/2" type="submit">
+                  <button
+                    className="btn bg-accent my-3 w-1/2"
+                    type="submit"
+                    disabled={Loading}
+                  >
                     {postid === "add" ? "Add" : "Update"}
                   </button>
 

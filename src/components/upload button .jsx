@@ -9,11 +9,12 @@ export default function UploadButton({
   selectedImg,
   onChangeFile,
   handleUpload,
+ isLoading,error
 }) {
   //
   //------------- state -------------
-  const [error, setError] = useState(null);
-  const [isLoading, setIsLoading] = useState(null);
+  // const [error, setError] = useState(null);
+  // const [isLoading, setIsLoading] = useState(null);
   const hiddenFileInput = React.useRef(null);
 
   //------------- handlers -------------
@@ -64,7 +65,7 @@ export default function UploadButton({
         </div>
         {/*------------- upload img -------------*/}
         {selectedImg.selectedImage && (
-          <button className="btn rounded-none" onClick={handleUpload}>
+          <button className="btn rounded-none" onClick={handleUpload} disabled={isLoading}>
             Upload Image
           </button>
         )}

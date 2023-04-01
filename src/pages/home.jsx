@@ -12,7 +12,10 @@ export default function Home({
   setCurrentCategory,
   handleDeletePost,
   featuredPosts,
+  isLoading
 }) {
+
+ 
   return (
     <>
       <Header />
@@ -22,6 +25,7 @@ export default function Home({
           featuredPosts={featuredPosts}
           posts={posts}
           categories={categories}
+          isLoading={ isLoading}
         />
         <RecentPostSection
           posts={posts}
@@ -29,6 +33,7 @@ export default function Home({
           currentCategory={currentCategory}
           setCurrentCategory={setCurrentCategory}
           handleDeletePost={handleDeletePost}
+          isLoading={ isLoading}
         />
         <CreateButton />
       </div>

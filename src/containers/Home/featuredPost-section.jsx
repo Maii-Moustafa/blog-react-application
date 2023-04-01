@@ -2,7 +2,11 @@ import React, { useMemo } from "react";
 import FeaturedPost from "../../components/featuredPost";
 import Title from "../../components/shared/title";
 
-export default function FeaturedPostSection({ categories, featuredPosts }) {
+export default function FeaturedPostSection({
+  categories,
+  featuredPosts,
+  isLoading,
+}) {
   //
   featuredPosts = useMemo(() => {
     return featuredPosts?.map((post) => ({
@@ -10,6 +14,10 @@ export default function FeaturedPostSection({ categories, featuredPosts }) {
       category: categories.find((category) => category.id === post.category),
     }));
   }, [categories]);
+
+  if (isLoading) {
+    return <Loader />;
+  }
   //------------- UI -------------
   return (
     <>

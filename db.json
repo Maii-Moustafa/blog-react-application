@@ -9,8 +9,15 @@
       "id": 1
     }
   ],
-  
   "posts": [
+    {
+      "userId": 1,
+      "title": "10 ways to sleep well ",
+      "description": "you can't sleep well ? here are 10 tips for you.",
+      "category": 1,
+      "photo": "https://i.ibb.co/CV3zcmG/person-sleeping.jpg",
+      "id": "k7ODvPH"
+    },
     {
       "userId": 1,
       "id": "8",
@@ -18,7 +25,15 @@
       "title": "Simple Health Tips: How To Feel Better",
       "description": "Today we are going to talk about some SIMPLE, yet life-changing things that will make you feel better.",
       "category": 1
-      
+    },
+    {
+      "userId": 1,
+      "id": "5",
+      "photo": "https://oir.mobi/uploads/posts/2022-08/thumbs/1661389430_25-oir-mobi-p-priroda-razmitii-fon-pinterest-26.jpg",
+      "title": "Three things that work for me to manage anxiety",
+      "description": "I often find the last month of winter tough ...",
+      "category": 1,
+      "feature": true
     },
     {
       "userId": 1,
@@ -41,35 +56,26 @@
       "userId": 1,
       "id": "4",
       "photo": "https://images.unsplash.com/photo-1527883317605-6418769efcd2?ixlib=rb-0.3.5&amp;q=50&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=720&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMjZ9&amp;s=33e845ccb76ab0fb13fcdc43cfcdd0d3",
-      "title": "title 2",
-      "description": "description 2",
+      "title": "where are we going ??",
+      "description": "where are we going ??",
       "category": 1,
       "feature": true
     },
-    {
-      "userId": 1,
-      "id": "5",
-      "photo": "https://oir.mobi/uploads/posts/2022-08/thumbs/1661389430_25-oir-mobi-p-priroda-razmitii-fon-pinterest-26.jpg",
-      "title": "Three things that work for me to manage anxiety",
-      "description": "I often find the last month of winter tough ...",
-      "category": 1,
-      "feature": true
-    },
+
     {
       "userId": 1,
       "id": "6",
       "photo": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_618187746_377508.jpg",
-      "title": "title 2",
-      "description": "description 2",
-      "category": 3,
-      "feature": true
+      "title": "where are we going ??",
+      "description": "where are we going ??",
+      "category": 3
     },
     {
       "userId": 1,
       "id": "9",
       "photo": "https://3.bp.blogspot.com/-QHIaoxcsjEU/VPIewUQ9MSI/AAAAAAAAATo/ZoX1wBmHAgM/s1600/Y9SVcEVcEg0.jpg",
-      "title": "title 2",
-      "description": "description 2",
+      "title": "vintage clothes are back !",
+      "description": "vintage clothes are back !",
       "category": 3,
       "feature": true
     },
@@ -79,7 +85,8 @@
       "photo": "https://on-desktop.com/wps/2020Nature___Seasons___Summer_Starfish_and_shells_on_the_white_sand_141843_.jpg",
       "title": "Three things that work for me to manage anxiety",
       "description": "description 2",
-      "category": 1
+      "category": 3,
+      "feature": true
     },
     {
       "userId": 1,
@@ -87,7 +94,7 @@
       "photo": "https://i.pinimg.com/originals/e6/65/d4/e665d4c8f993cc059091dd4c247a2183.jpg",
       "title": "title 2",
       "description": "description 2",
-      "category": 1
+      "category": 2
     },
     {
       "userId": 1,
