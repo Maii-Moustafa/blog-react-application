@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$BWoMOfgmd7uV4dzMcaKfCe0Hsqodjataf5lgmvJf1Ik/fm1SMSDGO",
+      "confirm-password": "bestPassw0rd",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "photo": "https://avatars.mds.yandex.net/i?id=71cd49e263b60e61f25b0978ebb3c757_l-5364055-images-thumbs&ref=rim&n=13&w=1080&h=810",
+      "title": "title 1 test",
+      "description": "description 1",
+      "category": 1
+    },
+    {
+      "id": "2",
+      "photo": "https://img3.goodfon.com/wallpaper/nbig/2/a7/trava-priroda-fon-5320.jpg",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 1
+    },
+    {
+      "id": "3",
+      "photo": "https://wallup.net/wp-content/uploads/2015/12/56799-depth_of_field-landscape.jpg",
+      "title": "title 3",
+      "description": "description 3",
+      "category": 2
+    },
+    {
+      "id": "4",
+      "photo": "https://images.unsplash.com/photo-1527883317605-6418769efcd2?ixlib=rb-0.3.5&amp;q=50&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=720&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMjZ9&amp;s=33e845ccb76ab0fb13fcdc43cfcdd0d3",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 1
+    },
+    {
+      "id": "5",
+      "photo": "https://oir.mobi/uploads/posts/2022-08/thumbs/1661389430_25-oir-mobi-p-priroda-razmitii-fon-pinterest-26.jpg",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 3
+    },
+    {
+      "id": "6",
+      "photo": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_618187746_377508.jpg",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 3
+    },
+    {
+      "id": "7",
+      "photo": "https://on-desktop.com/wps/2020Nature___Seasons___Summer_Starfish_and_shells_on_the_white_sand_141843_.jpg",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 1
+    },
+    {
+      "id": "8",
+      "photo": "https://i.pinimg.com/originals/e6/65/d4/e665d4c8f993cc059091dd4c247a2183.jpg",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 1
+    },
+    {
+      "title": "sad",
+      "description": "not eorking",
+      "category": 1,
+      "photo": "blob:http://localhost:5173/feb3b290-2ed9-414d-8f51-e81edd54c1fe",
+      "id": "Jn_E_8G"
+    },
+    {
+      "title": "",
+      "description": "",
+      "category": 1,
+      "photo": "blob:http://localhost:5173/9edfc0be-66be-4716-9ca4-184924b827b9",
+      "id": "B5obiFQ"
+    },
+    {
+      "title": "",
+      "description": "ARE YOU WORKING",
+      "category": 2,
+      "photo": "blob:http://localhost:5173/e1ead935-402d-4389-b3e4-14a10ea4afcd",
+      "id": "Kb5SQb9"
+    },
+    {
+      "title": "dw",
+      "description": "wd",
+      "category": 2,
+      "photo": "blob:http://localhost:5173/8e854b9c-0adf-43d5-aad8-aee74247e6cd",
+      "id": "vl7lA1e"
+    },
+    {
+      "title": "mai",
+      "description": "rgrtr",
+      "category": 2,
+      "photo": "blob:http://localhost:5173/af9b8243-0a85-45e5-a574-94d7bfbd68f2",
+      "id": "4BfNOXO"
+    },
+    {
+      "title": "zein",
+      "description": "sign up hamada",
+      "category": 2,
+      "photo": "blob:http://localhost:5173/3ade8333-c156-4ba1-ad6d-620cdf2d990d",
+      "id": "g7ak4TV"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "photo": "https://i.pinimg.com/736x/2b/c7/62/2bc76269f513a62495566129c88e5532.jpg",
+      "category": "All"
+    },
+    {
+      "id": 1,
+      "photo": "https://i.pinimg.com/originals/d1/96/31/d19631b4c0b5a2da0cb8f0f686868b80.jpg",
+      "category": "lifeStyle"
+    },
+    {
+      "id": 2,
+      "photo": "https://i.pinimg.com/originals/51/17/0f/51170fb6cc2c0ba9db0c55f44aa1e22f.jpg",
+      "category": "beauty"
+    },
+    {
+      "id": 3,
+      "photo": "https://i.pinimg.com/736x/60/4b/38/604b383c99a44776ca883724f81f9e87.jpg",
+      "category": "fashion"
+    }
+  ],
+  "files": [],
+  "upload": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    }
+  ]
+}

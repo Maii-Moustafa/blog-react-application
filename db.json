@@ -1,0 +1,138 @@
+{
+  "users": [
+    {
+      "email": "mai@mail.com",
+      "password": "$2a$10$wbFwQSDATrqwVsI9R477LO9n/MHi1rz7AM6zokoeK6KGSlSrkXUXi",
+      "firstname": "mai",
+      "lastName": "mm",
+      "age": 22,
+      "id": 1
+    }
+  ],
+  
+  "posts": [
+    {
+      "userId": 1,
+      "id": "8",
+      "photo": "https://i.pinimg.com/originals/e6/65/d4/e665d4c8f993cc059091dd4c247a2183.jpg",
+      "title": "Simple Health Tips: How To Feel Better",
+      "description": "Today we are going to talk about some SIMPLE, yet life-changing things that will make you feel better.",
+      "category": 1
+      
+    },
+    {
+      "userId": 1,
+      "id": "1",
+      "photo": "https://avatars.mds.yandex.net/i?id=71cd49e263b60e61f25b0978ebb3c757_l-5364055-images-thumbs&ref=rim&n=13&w=1080&h=810",
+      "title": "title 1 test",
+      "description": "description 1",
+      "category": 1,
+      "feature": false
+    },
+    {
+      "userId": 1,
+      "id": "2",
+      "photo": "https://img3.goodfon.com/wallpaper/nbig/2/a7/trava-priroda-fon-5320.jpg",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 1
+    },
+    {
+      "userId": 1,
+      "id": "4",
+      "photo": "https://images.unsplash.com/photo-1527883317605-6418769efcd2?ixlib=rb-0.3.5&amp;q=50&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=720&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMjZ9&amp;s=33e845ccb76ab0fb13fcdc43cfcdd0d3",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 1,
+      "feature": true
+    },
+    {
+      "userId": 1,
+      "id": "5",
+      "photo": "https://oir.mobi/uploads/posts/2022-08/thumbs/1661389430_25-oir-mobi-p-priroda-razmitii-fon-pinterest-26.jpg",
+      "title": "Three things that work for me to manage anxiety",
+      "description": "I often find the last month of winter tough ...",
+      "category": 1,
+      "feature": true
+    },
+    {
+      "userId": 1,
+      "id": "6",
+      "photo": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_618187746_377508.jpg",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 3,
+      "feature": true
+    },
+    {
+      "userId": 1,
+      "id": "9",
+      "photo": "https://3.bp.blogspot.com/-QHIaoxcsjEU/VPIewUQ9MSI/AAAAAAAAATo/ZoX1wBmHAgM/s1600/Y9SVcEVcEg0.jpg",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 3,
+      "feature": true
+    },
+    {
+      "userId": 1,
+      "id": "7",
+      "photo": "https://on-desktop.com/wps/2020Nature___Seasons___Summer_Starfish_and_shells_on_the_white_sand_141843_.jpg",
+      "title": "Three things that work for me to manage anxiety",
+      "description": "description 2",
+      "category": 1
+    },
+    {
+      "userId": 1,
+      "id": "8",
+      "photo": "https://i.pinimg.com/originals/e6/65/d4/e665d4c8f993cc059091dd4c247a2183.jpg",
+      "title": "title 2",
+      "description": "description 2",
+      "category": 1
+    },
+    {
+      "userId": 1,
+      "title": "hamadaaaaaaa",
+      "description": "defrgtg",
+      "category": 1,
+      "id": "Jn_E_8G"
+    },
+    {
+      "userId": 1,
+      "title": "RRE",
+      "description": "EDFD",
+      "category": 3,
+      "photo": "https://i.pinimg.com/originals/55/e2/40/55e240f99dbdd126a551f1cadd7036f5.jpg",
+      "id": "rouKLdo"
+    },
+    {
+      "userId": 1,
+      "title": "trial1 with update image",
+      "description": "ya rab",
+      "category": 1,
+      "photo": "https://i.ibb.co/qjt41sD/Screenshot-wwe.png",
+      "id": "Fw2dBwi"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "photo": "https://i.pinimg.com/736x/2b/c7/62/2bc76269f513a62495566129c88e5532.jpg",
+      "category": "All"
+    },
+    {
+      "id": 1,
+      "photo": "https://i.pinimg.com/originals/d1/96/31/d19631b4c0b5a2da0cb8f0f686868b80.jpg",
+      "category": "lifeStyle"
+    },
+    {
+      "id": 2,
+      "photo": "https://i.pinimg.com/originals/51/17/0f/51170fb6cc2c0ba9db0c55f44aa1e22f.jpg",
+      "category": "beauty"
+    },
+    {
+      "id": 3,
+      "photo": "https://i.pinimg.com/736x/60/4b/38/604b383c99a44776ca883724f81f9e87.jpg",
+      "category": "fashion"
+    }
+  ]
+}
