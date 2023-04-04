@@ -7,7 +7,7 @@ import * as yup from "yup";
 import { toast } from "react-toastify";
 
 import { useSignUp } from "../hooks/useSignup";
-
+import ErrorMsg from "../components/shared/errorMsg";
 //schema
 const schema = yup
   .object({
